@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+        <img src="/img/background/nav_1.jpg" alt="">
+        <div class="nav_top">
+            <a href="https://www.cyberpunk.net/us/ru/"><img src="/img/ico/Cyberpunk_ico.svg" alt=""></a>
+
+            <ul class="nav_logo">
+                <li><a href="https://www.youtube.com/@CyberpunkGame"><img src="/img/logo/youtube_logo.svg" alt=""></a></li>
+                <li><a href="https://vk.com/cyberpunkgame"><img src="/img/logo/vk_logo.svg" alt=""></a></li>
+                <li><a href="https://www.facebook.com/groups/Cyberpunk2077/"><img src="/img/logo/facebook_logo.svg" alt=""></a></li>
+                <li><a href="https://twitter.com/CyberpunkGame"><img src="/img/logo/twitter_logo.svg" alt=""></a></li>
+                <li><a href="https://www.twitch.tv/directory/category/cyberpunk-2077"><img src="/img/logo/twitch_logo.svg" alt=""></a></li>
+                <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/cyberpunkgame/&ved=2ahUKEwj9m_C_xZGMAxVCFRAIHT1OMVcQFnoECBoQAQ&usg=AOvVaw0h2MY9002V1bToB8debBSR"><img src="/img/logo/insta_logo.svg" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="nav_info">
+            <h2 class="nav_info_text">Доступно на всех платформах</h2>
+            <button id="scrollButton" class="nav_info_button">Узнать больше</button>
+        </div>
+        <script src="script.js"></script>
+    </nav>
+    <main>
+        <section class="main_first">
+            <h2 class="main_first_h">Найт-Сити изменит тебя навсегда</h2>
+            <p class="main_first_p"> <span class="main_first_p_span">Cyberpunk 2077</span> — приключенческая ролевая игра, 
+                действие которой происходит в мегаполисе Найт-Сити, 
+                где власть, роскошь и модификации тела ценятся выше всего. 
+                Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. 
+                Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, 
+                исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, 
+                что тебя окружает."
+            </p>
+            <ul class="main_first_img">
+                <ul>
+                    <li class="main_first_img_two"><img src="/img/background/main_1_1.png" alt=""></li>
+                    <li class="main_first_img_two"><img src="/img/background/main_1_2.png" alt=""></li> 
+                </ul>
+                <li class="main_first_img_two"><img src="/img/background/main_1_3.png" alt=""></li>
+            </ul>
+        </section>
+
+        <section class="main_second">
+            <img src="/img/background/background_selection_1-2.png" alt="">
+            <div class="main_head">
+                <img id="sale_ico" src="/img/ico/Sale_ico.svg" alt="">
+                <p class="main_second_sale">акция</p>
+                <h2 class="main_second_h2">Играй и выигрывай!</h2>
+            </div>
+            <p class="main_second_p">
+                 Играй в <span class="main_second_p_span">Cyberpunk 2077</span> и получи возможность выиграть
+                 консоль <span class="main_second_p_span">Xbox Series X</span> или 
+                 <span class="main_second_p_span">Sony PlayStation 5! </span>
+                 Заполни форму ниже и приложи скриншот о покупке игры. 
+                 Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+            </p>
+
+            <div class="midl_info">
+                <form class="form-board">
+                    <div class="input_lottery_div">
+                        <input class="input_lottery" type="text" id="name" placeholder="Как тебя зовут?">
+                        <input class="input_lottery" type="text" id="email" placeholder="Твой e-mail">  
+                    </div>
+                    <input type="file" id="file-upload"/>
+                    <button id="button_form_load_screenshot" onclick="document.getElementById('file-upload').click()" >Прикрепить скриншот <br id="button_form_load_screenshot_format">.png/.jpg/.pdf</br></button>
+                    <button id="button_send" type="submit" onclick="button_sendForm" >Отправить</button>
+                    <div class="check_personal_date">
+                        <input id="checkbox_personal_date" type="checkbox" id="politics" onclick="check();" value="" autocomplete="off" />
+                        <a id="personal_date_document" href="ссылка на страницу согласия">Согласен на обработку персональных данных</a>
+                    </div>
+                </form>
+                
+                <img class="poster_Xbox_PS" src="img/ico/XBOX_PS.svg" alt="">
+            </div>
+
+        </section>
+        <section class="main_third">
+            <img src="/img/background/background_selection_2-3.png" alt="">
+            <div class="section_3">
+                <div class="img_section_3">
+                    <img id="hpmonitor" src="/img/ico/monitor_hp.svg" alt="">
+                    <img id="hpxcyberpunk" src="/img/logo/hpxcyberpunk.svg" alt="">
+                </div>
+                <div class="main_third_info">
+                    <h2 class="main_third_h2">Полное погружение вместе с HP</h2>
+                    <p class="main_third_p">
+                    Погрузись в современные экшен-игры с реалистичным 
+                    изображением с помощью монитора с диагональю 23,8 дюйма, 
+                    созданном для отображения максимально насыщенных цветов. 
+                    Успевай реагировать на любые события с 
+                    временем отклика 1 мс и частотой в 144 Гц!
+                    </p>
+                    <ul class="main_third_p2">
+                        <li><img class="main_third_p2_ico" src="/img/ico/ico_palitra.svg" alt="">Яркие насыщенные цвета</li>
+                        <li><img class="main_third_p2_ico" src="/img/ico/ico_stars.svg" alt="">Кристальная четкость изображения</li>
+                        <li><img class="main_third_p2_ico" src="/img/ico/ico_more_screen.svg" alt="">Быстрые движения и плавный геймплей</li>
+                    </ul>
+                    <form action="https://www.hp.com/ru-ru/products/monitors/product-details/2101560082" method="get">
+                        <button type="submit" id="button_main_third">Подробнее</button>
+                     </form>
+                </div>
+            </div>
+        </section>
+        <!--<section>
+            <img src="" alt="">
+            <div>
+                <p>Купить игру Cyberpunk 2077</p>
+                <h3>В комплект входит:</h3>
+
+                <ul>
+                    <li><img src="" alt="">Футляр с новыми играми</li>
+                    <li><img src="" alt="">Футляр с кодом для загрузки игры с дискми (рс)</li>
+                    <li><img src="" alt="">Справочник с информацией об игровом мире</li>
+                </ul>
+
+                <h3>Выберите платформу:</h3>
+                <ul>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </ul>
+
+            </div>
+        </section>-->
+
+    </main>
+    <footer class="footer">
+        <section class="footer_section_1">
+            <img id="footer_cyberpunk_ico" src="/img/ico/Cyberpunk_ico.svg" alt="">
+            <img src="/img/logo/CD_Projekt_logo.svg" alt="">
+            <p  id="footer_licention"><a href="#">Лицензия</a></p>
+            <p id="footer_politics" ><a href="#">Политика конфедициальности</a></p>
+        </section>
+        <section class="footer_section_2">
+            <p id="footer_company">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+        </section>
+    </footer>
+</body>
+</html>
