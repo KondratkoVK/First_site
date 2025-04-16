@@ -38,7 +38,7 @@ nav{
 .nav_info{
     width: 624px;
     height: 369px;
-    background-image: url(/img/background/background_nav_yellow_.svg);
+    background-image: url(img/background/background_nav_yellow_.svg);
 
     position: absolute;
     top: 631px;
@@ -252,7 +252,7 @@ input#checkbox_personal_date{
 input#checkbox_personal_date:checked{
 
     
-    background-image: url(/img/ico/ok.svg);
+    background-image: url(img/ico/ok.svg);
 }
 
 .check_personal_date{    
